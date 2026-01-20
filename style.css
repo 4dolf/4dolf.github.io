@@ -32,20 +32,37 @@ h1{
 
 body {
     background-color: #FCB7ED;
-    display: flex;
-    justify-content: center;  
-    align-items: center;       
-    height: 100vh;            
-    margin: 0;             
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0; padding: 20px; 
+    box-sizing: border-box;         
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; width: 100%; 
+    max-width: 400px; 
+    text-align: center;
 }
 
 .buttons {
     gap: 20px;
+    gap: 15px; flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 480px) { 
+    h1 {
+         font-size: 24px; 
+    } 
+    
+    .YesButton, .NoButton { 
+        width: 100%;
+        font-size: 20px;
+        padding: 18px; 
+    }
 }
