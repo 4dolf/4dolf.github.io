@@ -1,0 +1,51 @@
+#Yes{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+#NO{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    background-color: #FCB7ED;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    height: 100vh;            
+    margin: 0;             
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    gap: 20px;
+}
